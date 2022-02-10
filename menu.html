@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		* {margin: 0px; padding: 0px;}
+		#menu {width: 600px; height: 40px; background:#3C3C3C; margin: 0px auto; font-family: tahoma; font-size: 16px;}
+		ul.bentrong>li {float: left; list-style: none; position: relative}
+		ul.bentrong>li>a {color: white; padding: 0px 15px 0px 15px; line-height: 40px; text-decoration: none; }
+		ul.bentrong>li>a:hover {background: orange; display: block; color: red; font-weight: bold; transition: ease-in 0.60s;
+		-moz-transition: ease-in 0.60s;
+		-webkit-transition: ease-in 0.60s;}
+		
+		ul.trongtrong {width: 200px; list-style: none; background: #322929; min-height:150px;visibility: hidden; position: absolute;}
+		ul.trongtrong li a {color: white; text-decoration: none; border-bottom: 1px orange dashed; display: block; line-height: 40px; text-indent: 10px;}
+		ul.bentrong>li:hover ul.trongtrong {visibility: visible;}
+		ul.trongtrong li a:hover {background:#000000; font-weight: bold; transition: ease-out 0.60s;
+		-moz-trasition: ease-out 0.60s;
+		-webkit-transition: ease-out 0.60s;}
+	</style>
+</head>
+
+<body>
+	<div id="menu">
+		<ul class="bentrong">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">HTML</a>
+			<ul class="trongtrong">
+				<li><a href="#">ERS</a></li>
+				<li><a href="#">UIS</a></li>
+				<li><a href="#">WER.HG</a></li>
+				<li><a href="#">PPL.QW</a></li>
+				<li><a href="#">KLW</a></li>
+				</ul>
+			</li>
+			
+			<li><a href="#">CSS</a>
+				<ul class="trongtrong">
+				<li><a href="#">ERS</a></li>
+				<li><a href="#">UIS</a></li>
+				<li><a href="#">WER.HG</a></li>
+				<li><a href="#">PPL.QW</a></li>
+				<li><a href="#">KLW</a></li>
+			</ul>
+			</li>
+			<li><a href="#">JAVASRIPT</a>
+				<ul class="trongtrong">
+				<li><a href="#">ERS</a></li>
+				<li><a href="#">UIS</a></li>
+				<li><a href="#">WER.HG</a></li>
+				<li><a href="#">PPL.QW</a></li>
+				<li><a href="#">KLW</a></li>
+			</ul>
+			</li>
+		</ul>
+		</div>
+	
+</body>
+</html>
